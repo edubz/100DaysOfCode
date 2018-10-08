@@ -1,0 +1,120 @@
+
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+.pinky {
+  box-shadow: 1em 1em 0 0 pink, 1em 0em 0 0 pink, 1em -1em 0 0 pink,
+    1em 1em 0 0 pink, 0em 1em 0 0 pink, 0em -1em 0 0 pink, -1em 1em 0 0 pink,
+    -1em 0em 0 0 pink, -1em -1em 0 0 pink, 1em 2em 0 0 pink, 0em 2em 0 0 pink,
+    -1em 2em 0 0 pink, 2em 2em 0 0 pink, -2em 2em 0 0 pink, -2em 3em 0 0 pink,
+    -1em 3em 0 0 pink, -0em 3em 0 0 pink, 1em 3em 0 0 pink, 2em 3em 0 0 pink,
+    -1em -2em 0 0 pink, 0em -2em 0 0 pink, 1em -2em 0 0 pink, 1em -3em 0 0 pink,
+    0em -3em 0 0 pink, -1em -3em 0 0 pink, 2em -3em 0 0 pink, 2em -4em 0 0 pink,
+    1em -4em 0 0 pink, 0em -4em 0 0 pink, -1em -4em 0 0 pink, -2em -3em 0 0 pink,
+    -2em -4em 0 0 pink, -3em -5em 0 0 pink, 3em -5em 0 0 pink, 2em -5em 0 0 pink,
+    1em -5em 0 0 pink, 0em -5em 0 0 pink, -1em -5em 0 0 pink, -2em -5em 0 0 pink,
+    -4em -5em 0 0 pink, 4em -5em 0 0 pink, -5em -5em 0 0 pink, 5em -5em 0 0 pink,
+    6em -4em 0 0 pink, 6em -3em 0 0 pink, 7em -2em 0 0 pink, 7em -1em 0 0 pink,
+    7em 0em 0 0 pink, 7em 1em 0 0 pink, 6em 2em 0 0 pink, 6em 3em 0 0 pink,
+    5em 4em 0 0 pink, 4em 4em 0 0 pink, 3em 4em 0 0 pink, 2em 4em 0 0 pink,
+    1em 4em 0 0 pink, 0em 4em 0 0 pink, -1em 4em 0 0 pink, -2em 4em 0 0 pink,
+    -3em 4em 0 0 pink, -4em 4em 0 0 pink, -5em 4em 0 0 pink, -6em 3em 0 0 pink,
+    -6em 2em 0 0 pink, -7em 1em 0 0 pink, -7em 0em 0 0 pink, -7em -1em 0 0 pink,
+    -7em -2em 0 0 pink, -7em -3em 0 0 pink, -6em -3em 0 0 pink,
+    -6em -4em 0 0 pink, -6em -5em 0 0 pink, -7em -4em 0 0 pink,
+    -8em -4em 0 0 pink,  -7em -4em 0 0 pink,
+    -8em -3em 0 0 pink, -8em -2em 0 0 pink, -8em -1em 0 0 pink,
+    -8em 0em 0 0 pink, -8em 1em 0 0 pink, -7em 2em 0 0 pink, -8em 2em 0 0 pink,
+    -8em 3em 0 0 pink, -7em 3em 0 0 pink, -6em 4em 0 0 pink, -7em 4em 0 0 pink,
+    -8em 4em 0 0 pink, -8em 5em 0 0 pink, -7em 5em 0 0 pink, -6em 5em 0 0 pink,
+    -5em 5em 0 0 pink, -4em 5em 0 0 pink, -3em 5em 0 0 pink, -2em 5em 0 0 pink,
+    -1em 5em 0 0 pink, -0em 5em 0 0 pink, 1em 5em 0 0 pink, 2em 5em 0 0 pink,
+    3em 5em 0 0 pink, 4em 5em 0 0 pink, 5em 5em 0 0 pink, 6em 5em 0 0 pink,
+    6em 4em 0 0 pink, 6em 6em 0 0 pink, 5em 6em 0 0 pink, 4em 6em 0 0 pink,
+    3em 6em 0 0 pink, 2em 6em 0 0 pink, 1em 6em 0 0 pink, 0em 6em 0 0 pink,
+    -1em 6em 0 0 pink, -2em 6em 0 0 pink, -3em 6em 0 0 pink, -4em 6em 0 0 pink,
+    -5em 6em 0 0 pink, -6em 6em 0 0 pink, -7em 6em 0 0 pink, -8em 6em 0 0 pink,
+    3em 6em 0 0 pink, -9em 7em 0 0 pink, -9em 6em 0 0 pink, -9em 5em 0 0 pink,
+    -9em 4em 0 0 pink, -9em 3em 0 0 pink, -9em 2em 0 0 pink, -9em 1em 0 0 pink,
+    
+    
+    -8em -5em 0 0 pink, -7em -5em 0 0 pink, -6em -6em 0 0 pink,
+    -5em -6em 0 0 pink, -4em -6em 0 0 pink, -4em -7em 0 0 pink,
+    -5em -7em 0 0 pink, -3em -6em 0 0 pink, -3em -7em 0 0 pink,
+    -3em -8em 0 0 pink, -2em -8em 0 0 pink, -2em -7em 0 0 pink,
+    -2em -6em 0 0 pink, -1em -6em 0 0 pink, -1em -7em 0 0 pink,
+    -1em -8em 0 0 pink, -0em -8em 0 0 pink, -0em -7em 0 0 pink,
+    -0em -6em 0 0 pink, 1em -6em 0 0 pink, 1em -7em 0 0 pink, 1em -8em 0 0 pink,
+    2em -7em 0 0 pink, 2em -6em 0 0 pink, 3em -6em 0 0 pink, 3em -7em 0 0 pink,
+    4em -6em 0 0 pink, 6em -5em 0 0 pink, 7em -4em 0 0 pink, 7em -3em 0 0 pink,
+    8em 1em 0 0 pink, 7em 2em 0 0 pink, 7em 3em 0 0 pink,
+    7em 4em 0 0 pink, 7em 5em 0 0 pink, 7em 6em 0 0 pink, 8em 2em 0 0 pink,
+    8em 3em 0 0 pink, 8em 4em 0 0 pink, 8em 5em 0 0 pink, 8em 6em 0 0 pink,    
+     8em 13em 0 0 pink, 8em 12em 0 0 pink, 8em 11em 0 0 pink,
+    8em 10em 0 0 pink, 8em 9em 0 0 pink, 8em 8em 0 0 pink, 8em 7em 0 0 pink,
+    7em 7em 0 0 pink, 7em 8em 0 0 pink, 7em 9em 0 0 pink, 7em 10em 0 0 pink,
+    7em 11em 0 0 pink, 7em 12em 0 0 pink, 7em 13em 0 0 pink, 7em 14em 0 0 pink,
+    6em 14em 0 0 pink, 6em 13em 0 0 pink, 6em 12em 0 0 pink, 6em 11em 0 0 pink,
+    6em 10em 0 0 pink, 6em 9em 0 0 pink, 6em 8em 0 0 pink, 6em 7em 0 0 pink,
+    5em 7em 0 0 pink, 5em 8em 0 0 pink, 5em 9em 0 0 pink, 5em 10em 0 0 pink,
+    5em 11em 0 0 pink, 5em 12em 0 0 pink, 5em 13em 0 0 pink, 4em 7em 0 0 pink,
+    4em 8em 0 0 pink, 4em 9em 0 0 pink, 4em 10em 0 0 pink, 4em 11em 0 0 pink,
+    4em 12em 0 0 pink, 3em 7em 0 0 pink, 3em 8em 0 0 pink, 3em 9em 0 0 pink,
+    3em 10em 0 0 pink, 3em 11em 0 0 pink, 3em 12em 0 0 pink, 3em 13em 0 0 pink,
+    2em 7em 0 0 pink, 2em 8em 0 0 pink, 2em 9em 0 0 pink, 2em 10em 0 0 pink,
+    2em 11em 0 0 pink, 2em 12em 0 0 pink, 2em 13em 0 0 pink, 2em 14em 0 0 pink,
+    1em 7em 0 0 pink, 1em 8em 0 0 pink, 1em 9em 0 0 pink, 1em 10em 0 0 pink,
+    1em 11em 0 0 pink, 1em 12em 0 0 pink, 1em 13em 0 0 pink, 1em 14em 0 0 pink,
+    0em 7em 0 0 pink, 0em 8em 0 0 pink, 0em 9em 0 0 pink, 0em 10em 0 0 pink,
+    0em 11em 0 0 pink, 0em 12em 0 0 pink, 0em 13em 0 0 pink, 0em 14em 0 0 pink,
+    -1em 14em 0 0 pink, -1em 13em 0 0 pink, -1em 12em 0 0 pink,
+    -1em 11em 0 0 pink, -1em 10em 0 0 pink, -1em 9em 0 0 pink, -1em 8em 0 0 pink,
+    -1em 7em 0 0 pink, -2em 7em 0 0 pink, -2em 8em 0 0 pink, -2em 9em 0 0 pink,
+    -2em 10em 0 0 pink, -2em 11em 0 0 pink, -2em 12em 0 0 pink,
+    -2em 13em 0 0 pink, -3em 7em 0 0 pink, -3em 8em 0 0 pink, -3em 9em 0 0 pink,
+    -3em 10em 0 0 pink, -3em 11em 0 0 pink, -3em 12em 0 0 pink,
+    -4em 7em 0 0 pink, -4em 8em 0 0 pink, -4em 9em 0 0 pink, -4em 10em 0 0 pink,
+    -4em 11em 0 0 pink, -4em 12em 0 0 pink, -4em 13em 0 0 pink,
+    -5em 7em 0 0 pink, -5em 8em 0 0 pink, -5em 9em 0 0 pink, -5em 10em 0 0 pink,
+    -5em 11em 0 0 pink, -5em 12em 0 0 pink, -5em 13em 0 0 pink,
+    -5em 14em 0 0 pink, -6em 7em 0 0 pink, -6em 8em 0 0 pink, -6em 9em 0 0 pink,
+    -6em 10em 0 0 pink, -6em 11em 0 0 pink, -6em 12em 0 0 pink,
+    -6em 13em 0 0 pink, -6em 14em 0 0 pink, -7em 14em 0 0 pink,
+    -7em 13em 0 0 pink, -7em 12em 0 0 pink, -7em 11em 0 0 pink,
+    -7em 10em 0 0 pink, -7em 9em 0 0 pink, -7em 8em 0 0 pink, -7em 7em 0 0 pink,
+    -8em 7em 0 0 pink, -8em 8em 0 0 pink, -8em 9em 0 0 pink, -8em 10em 0 0 pink,
+    -8em 11em 0 0 pink, -8em 12em 0 0 pink, -8em 13em 0 0 pink,
+    -9em 8em 0 0 pink, -9em 9em 0 0 pink, -9em 10em 0 0 pink, -9em 11em 0 0 pink,
+    -9em 12em 0 0 pink,
+     -3em 1em 0 1em grey, 5em 1em 0 1em grey;
+  
+/*The one box to rule them all*/
+  background: pink;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  margin: 50px 0 70px 65px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+}
+.container:hover .pinky{
+  width: .5em;
+  height: .5em;
+}
