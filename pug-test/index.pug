@@ -1,0 +1,28 @@
+doctype html
+html
+	head
+	body
+		input(type = "password" name="inPwd" data-js=`${ 1 > 2 ? "OK" : "NOT OK!"}`)
+		h1#pageTitle Pug Test
+
+		-const myClasses = ["class1", "class2", "class3"]
+
+		div(class=myClasses)
+
+		-const myStyles = {"color":"red", "background-color": "blue"}
+
+		div(style=myStyles)
+
+		-const myAttributes = {"src": "myPhoto.png", "alt": "This is my photo"}
+
+		img&attributes(myAttributes)
+
+		input(type="text" disabled)
+
+		p.one.
+			this is 
+			multiline text
+		ul
+			li item 1
+			li item 2
+			li item 3
