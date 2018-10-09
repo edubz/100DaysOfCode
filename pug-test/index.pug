@@ -2,6 +2,11 @@ doctype html
 html
 	head
 		link(rel="stylesheet" href="css/style.css")
+		style.
+			p {
+				color: red;
+				text-decoration: underline;
+			}
 	body
 		input(type = "password" name="inPwd" data-js=`${ 1 > 2 ? "OK" : "NOT OK!"}`)
 		h1#pageTitle Pug Test
@@ -27,3 +32,11 @@ html
 			li item 1
 			li item 2
 			li item 3
+
+		h1 For/Each Loop
+		- const names = ["Dom", "Sophie", "Mark"];
+		- const grades = {"Web Dev": 100, "Software Design": 76}
+		for n, i in grades
+				p= n + " - " + i
+		else
+			strong No values are here!
