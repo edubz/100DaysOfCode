@@ -1,0 +1,16 @@
+.comment {
+	font-family: sans-serif;
+	line-height: 1.5;
+	padding: 10px;
+	border: 1px solid grey;
+}
+
+.date {
+	font-size: 85%;
+	text-align: right;
+}
+
+.author {
+	font-size: 110%;
+	font-weight: bold;
+}

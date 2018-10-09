@@ -1,13 +1,18 @@
+mixin comment(commentData)
+	.comment
+		if commentData.postedByAdmin
+			em (Posted by Admin)
+		.date= commentData.date
+		.author= commentData.author
+		.text= commentData.text
+
+
+
 doctype html
 html
 	head
 		//CSS
-		link(rel="stylesheet" href="css/style.css")
-		style.
-			p {
-				color: red;
-				text-decoration: underline;
-			}
+		link(rel="stylesheet", href="/home/globali/100DaysOfCode/pug-test/css/style.css", type='text/css')
 	body
 		input(type = "password" name="inPwd" data-js=`${ 1 > 2 ? "OK" : "NOT OK!"}`)
 		h1#pageTitle Pug Test
@@ -74,3 +79,11 @@ html
 
 		//The include keyword
 		include includes/nav.pug
+
+		//Mixins
+
+		- const c = { postedByAdmin: true, date: '10-09-2018', author: 'edubz', text: 'Hey, Dude!'}
+		+comment(c)
+
+		- const c1 = { date: '10-09-2018', author: 'bruce', text: 'Whats up!'}
+		+comment(c1)
