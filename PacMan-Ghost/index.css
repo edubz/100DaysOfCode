@@ -1,0 +1,455 @@
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0px;
+  pading: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+.ghost {
+  box-shadow:  
+
+    
+   
+   
+   
+   
+  
+    /*row one 
+    //Top row 
+    //Moving horizontal from left to right 
+    */
+ 
+    -4em -9em 0 0 blue,
+    -3em -9em 0 0 blue,
+    -2em -9em 0 0 blue,
+    -1em -9em 0 0 blue,
+    0em -9em 0 0 blue,
+    1em -9em 0 0 blue,
+    2em -9em 0 0 blue,
+    3em -9em 0 0 blue,
+    4em -9em 0 0 blue,
+
+    /*Row two*/
+   
+    -6em -8em 0 0 blue,
+    -5em -8em 0 0 blue,
+    -4em -8em 0 0 blue,
+    -3em -8em 0 0 blue,
+    -2em -8em 0 0 blue,
+    -1em -8em 0 0 blue,
+    0em -8em 0 0 blue,
+    1em -8em 0 0 blue,
+    2em -8em 0 0 blue,
+    3em -8em 0 0 blue,
+    4em -8em 0 0 blue,
+    5em -8em 0 0 blue,
+    6em -8em 0 0 blue,
+   
+   /*Row three*/
+    
+    -7em -7em 0 0 blue,
+    -6em -7em 0 0 blue,
+    -5em -7em 0 0 blue,
+    -4em -7em 0 0 blue,
+    -3em -7em 0 0 blue,
+    -2em -7em 0 0 blue,
+    -1em -7em 0 0 blue,
+    0em -7em 0 0 blue,
+    1em -7em 0 0 blue,
+    2em -7em 0 0 blue,
+    3em -7em 0 0 blue,
+    4em -7em 0 0 blue,
+    5em -7em 0 0 blue,
+    6em -7em 0 0 blue,
+    7em -7em 0 0 blue,
+    
+   /*Row four*/
+   
+    -7em -6em 0 0 blue,
+    -6em -6em 0 0 blue,
+    -5em -6em 0 0 blue,
+    -4em -6em 0 0 blue,
+    -3em -6em 0 0 blue,
+    -2em -6em 0 0 blue,
+    -1em -6em 0 0 blue,
+    0em -6em 0 0 blue,
+    1em -6em 0 0 blue,
+    2em -6em 0 0 blue,
+    3em -6em 0 0 blue,
+    4em -6em 0 0 blue,
+    5em -6em 0 0 blue,
+    6em -6em 0 0 blue,
+    7em -6em 0 0 blue,
+   
+    /*Row five*/
+    
+    -9em -5em 0 0 blue,
+    -8em -5em 0 0 blue,
+    -7em -5em 0 0 blue,
+    -6em -5em 0 0 blue,
+    -5em -5em 0 0 blue,
+    -4em -5em 0 0 blue,
+    -3em -5em 0 0 blue,
+    -2em -5em 0 0 blue,
+    -1em -5em 0 0 blue,
+    0em -5em 0 0 blue,
+    1em -5em 0 0 blue,
+    2em -5em 0 0 blue,
+    3em -5em 0 0 blue,
+    4em -5em 0 0 blue,
+    5em -5em 0 0 blue,
+    6em -5em 0 0 blue,
+    7em -5em 0 0 blue,
+    8em -5em 0 0 blue,
+    9em -5em 0 0 blue,
+   
+    /*Row six*/
+    
+    
+    -9em -4em 0 0 blue,
+    -8em -4em 0 0 blue,
+    -7em -4em 0 0 blue,
+    -6em -4em 0 0 blue,
+    -5em -4em 0 0 blue,
+    -4em -4em 0 0 blue,
+    -3em -4em 0 0 blue,
+    -2em -4em 0 0 blue,
+    -1em -4em 0 0 blue,
+    0em -4em 0 0 blue,
+    1em -4em 0 0 blue,
+    2em -4em 0 0 blue,
+    3em -4em 0 0 blue,
+    4em -4em 0 0 blue,
+    5em -4em 0 0 blue,
+    6em -4em 0 0 blue,
+    7em -4em 0 0 blue,
+    8em -4em 0 0 blue,
+    9em -4em 0 0 blue,
+    
+    /*Row seven*/
+    
+    -9em -3em 0 0 blue,
+    -8em -3em 0 0 blue,
+    -7em -3em 0 0 blue,
+    -6em -3em 0 0 blue,
+    -5em -3em 0 0 blue,
+    -4em -3em 0 0 blue,
+    -3em -3em 0 0 blue,
+    -2em -3em 0 0 blue,
+    -1em -3em 0 0 blue,
+    0em -3em 0 0 blue,
+    1em -3em 0 0 blue,
+    2em -3em 0 0 blue,
+    3em -3em 0 0 blue,
+    4em -3em 0 0 blue,
+    5em -3em 0 0 blue,
+    6em -3em 0 0 blue,
+    7em -3em 0 0 blue,
+    8em -3em 0 0 blue,
+    9em -3em 0 0 blue,
+    
+    /*Row eight*/
+    
+    -9em -2em 0 0 blue,
+    -8em -2em 0 0 blue,
+    -7em -2em 0 0 blue,
+    -6em -2em 0 0 blue,
+    -5em -2em 0 0 blue,
+
+    -1em -2em 0 0 blue,
+    0em -2em 0 0 blue,
+    1em -2em 0 0 blue,
+    
+    5em -2em 0 0 blue,
+    6em -2em 0 0 blue,
+    7em -2em 0 0 blue,
+    8em -2em 0 0 blue,
+    9em -2em 0 0 blue,
+    
+    /*Row nine*/  
+    
+    -9em -1em 0 0 blue,
+    -8em -1em 0 0 blue,
+    -7em -1em 0 0 blue,
+    -6em -1em 0 0 blue,
+    -5em -1em 0 0 blue,
+
+    -1em -1em 0 0 blue,
+    0em -1em 0 0 blue,
+    1em -1em 0 0 blue,
+
+    5em -1em 0 0 blue,
+    6em -1em 0 0 blue,
+    7em -1em 0 0 blue,
+    8em -1em 0 0 blue,
+    9em -1em 0 0 blue,
+    
+    /*Row ten*/
+    
+    -10em 0em 0 0 blue,
+    -9em 0em 0 0 blue,
+    -8em 0em 0 0 blue,
+    -7em 0em 0 0 blue,
+    -6em 0em 0 0 blue,
+    -5em 0em 0 0 blue,
+    /*Left eye*/
+    
+    -1em 0em 0 0 blue,
+    /*The center of the shape is here*/
+    1em 0em 0 0 blue,
+    
+    /*Right eye*/
+    5em 0em 0 0 blue,
+    6em 0em 0 0 blue,
+    7em 0em 0 0 blue,
+    8em 0em 0 0 blue,
+    9em 0em 0 0 blue,
+    10em 0em 0 0 blue,
+    
+    /*Row eleven*/
+    
+    -10em 1em 0 0 blue,
+    -9em 1em 0 0 blue,
+    -8em 1em 0 0 blue,
+    -7em 1em 0 0 blue,
+    -6em 1em 0 0 blue,
+    -5em 1em 0 0 blue,
+    -4em 1em 0 0 blue,
+    -3em 1em 0 0 blue,
+    -2em 1em 0 0 blue,
+    -1em 1em 0 0 blue,
+    0em 1em 0 0 blue,
+    1em 1em 0 0 blue,
+    2em 1em 0 0 blue,
+    3em 1em 0 0 blue,
+    4em 1em 0 0 blue,
+    5em 1em 0 0 blue,
+    6em 1em 0 0 blue,
+    7em 1em 0 0 blue,
+    8em 1em 0 0 blue,
+    9em 1em 0 0 blue,
+    10em 1em 0 0 blue,
+    
+    /*Row twelve*/
+    
+    -10em 2em 0 0 blue,
+    -9em 2em 0 0 blue,
+    -8em 2em 0 0 blue,
+    -7em 2em 0 0 blue,
+    -6em 2em 0 0 blue,
+    -5em 2em 0 0 blue,
+    -4em 2em 0 0 blue,
+    -3em 2em 0 0 blue,
+    -2em 2em 0 0 blue,
+    -1em 2em 0 0 blue,
+    0em 2em 0 0 blue,
+    1em 2em 0 0 blue,
+    2em 2em 0 0 blue,
+    3em 2em 0 0 blue,
+    4em 2em 0 0 blue,
+    5em 2em 0 0 blue,
+    6em 2em 0 0 blue,
+    7em 2em 0 0 blue,
+    8em 2em 0 0 blue,
+    9em 2em 0 0 blue,
+    10em 2em 0 0 blue,
+    
+    /*Row thirteen*/
+    
+    -10em 3em 0 0 blue,
+    -9em 3em 0 0 blue,
+    -8em 3em 0 0 blue,
+    -7em 2.5em 0 0 blue,
+    -6em 2.5em 0 0 blue,
+    -5em 2.5em 0 0 blue,
+    -4em 3em 0 0 blue,
+    -3em 3em 0 0 blue,
+    -2em 3em 0 0 blue,
+    /*center of mouth*/
+    -1em 2.5em 0 0 blue,
+    0em 2.5em 0 0 blue,
+    1em 2.5em 0 0 blue,
+    /**/
+    2em 3em 0 0 blue,
+    3em 3em 0 0 blue,
+    4em 3em 0 0 blue,
+    5em 2.5em 0 0 blue,
+    6em 2.5em 0 0 blue,
+    7em 2.5em 0 0 blue,
+    8em 3em 0 0 blue,
+    9em 3em 0 0 blue,
+    10em 3em 0 0 blue,
+    
+    /*Row fourteen*/
+    
+    -10em 4em 0 0 blue,
+    -9em 4em 0 0 blue,
+    -8em 4em 0 0 blue,
+   
+    
+    -4em 4em 0 0 blue,
+    -3em 4em 0 0 blue,
+    -2em 4em 0 0 blue,
+    
+    /*center of mouth*/
+    
+    
+    2em 4em 0 0 blue,
+    3em 4em 0 0 blue,
+    4em 4em 0 0 blue,
+  
+    
+    8em 4em 0 0 blue,
+    9em 4em 0 0 blue,
+    10em 4em 0 0 blue,
+    
+    /*Row fifteen*/
+    
+    -10em 5em 0 0 blue,
+    
+    -7em 5em 0 0 blue,
+    -6em 5em 0 0 blue,
+    -5em 5em 0 0 blue,
+    
+    -1em 5em 0 0 blue,
+    0em 5em 0 0 blue,
+    1em 5em 0 0 blue,
+    
+    
+    5em 5em 0 0 blue,
+    6em 5em 0 0 blue,
+    7em 5em 0 0 blue,
+    
+    
+    10em 5em 0 0 blue,
+    
+    /*Row sixteen*/
+    
+    -10em 6em 0 0 blue,
+    -9em 6.5em 0 0 blue,
+    -8em 6.5em 0 0 blue,
+    -7em 6em 0 0 blue,
+    -6em 6em 0 0 blue,
+    -5em 6em 0 0 blue,
+    -4em 6.5em 0 0 blue,
+    -3em 6.5em 0 0 blue,
+    -2em 6.5em 0 0 blue,
+    -1em 6em 0 0 blue,
+    0em 6em 0 0 blue,
+    1em 6em 0 0 blue,
+    2em 6.5em 0 0 blue,
+    3em 6.5em 0 0 blue,
+    4em 6.5em 0 0 blue,
+    5em 6em 0 0 blue,
+    6em 6em 0 0 blue,
+    7em 6em 0 0 blue,
+    8em 6.5em 0 0 blue,
+    9em 6.5em 0 0 blue,
+    10em 6em 0 0 blue,
+    
+    /*Row seventeen*/
+    
+    -10em 7em 0 0 blue,
+    -9em 7em 0 0 blue,
+    -8em 7em 0 0 blue,
+    -7em 7em 0 0 blue,
+    -6em 7em 0 0 blue,
+    -5em 7em 0 0 blue,
+    -4em 7em 0 0 blue,
+    -3em 7em 0 0 blue,
+    -2em 7em 0 0 blue,
+    -1em 7em 0 0 blue,
+    0em 7em 0 0 blue,
+    1em 7em 0 0 blue,
+    2em 7em 0 0 blue,
+    3em 7em 0 0 blue,
+    4em 7em 0 0 blue,
+    5em 7em 0 0 blue,
+    6em 7em 0 0 blue,
+    7em 7em 0 0 blue,
+    8em 7em 0 0 blue,
+    9em 7em 0 0 blue,
+    10em 7em 0 0 blue,
+    
+    /*Row eighteen*/
+    
+    -10em 8em 0 0 blue,
+    -9em 8em 0 0 blue,
+    -8em 8em 0 0 blue,
+
+    
+    -5em 8em 0 0 blue,
+    -4em 8em 0 0 blue,
+    -3em 8em 0 0 blue,
+    -2em 8em 0 0 blue,
+
+    
+    2em 8em 0 0 blue,
+    3em 8em 0 0 blue,
+    4em 8em 0 0 blue,
+    5em 8em 0 0 blue,
+
+    8em 8em 0 0 blue,
+    9em 8em 0 0 blue,
+    10em 8em 0 0 blue,
+    
+    /*Row nineteen*/
+  
+  -10em 9em 0 0 blue,
+    -9em 9em 0 0 blue,
+    
+    -4em 9em 0 0 blue,
+    -3em 9em 0 0 blue,
+    -2em 9em 0 0 blue,
+    
+    
+    2em 9em 0 0 blue,
+    3em 9em 0 0 blue,
+    4em 9em 0 0 blue,
+
+    9em 9em 0 0 blue,
+    10em 9em 0 0 blue,
+    
+    /*Row twenty*/
+    
+    -10em 10em 0 0 blue,
+    -9em 10em 0 0 blue,
+    
+    -4em 10em 0 0 blue,
+    -3em 10em 0 0 blue,
+    -2em 10em 0 0 blue,
+    
+    
+    
+    2em 10em 0 0 blue,
+    3em 10em 0 0 blue,
+    4em 10em 0 0 blue,
+    
+    
+    9em 10em 0 0 blue,
+    10em 10em 0 0 blue;
+    
+  
+/*The one box to rule them all*/
+  background: blue;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  margin: 50px 0 70px 65px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+}
+
